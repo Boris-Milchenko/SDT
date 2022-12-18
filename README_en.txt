@@ -1,7 +1,7 @@
 Welcome to PrimaTabla!
 It's tagline - 'From obsessed obsessively to obsessed' ;) or ( - you decide;
 
-PrimaTabla is a keyboard-ruled (keyboard rules ;) ) almost (that means not) table processor to manage patients' records. Another words - the simplest patient organiser with only (maybe just in first releases) 6 columns - num (id), name, sex, age, domicile and diagnosis.
+PrimaTabla is a keyboard-ruled (keyboard rules ;) ) almost (that means not) table processor to manage patients' records. Another words - the simplest patient organiser with only (maybe just in first releases) 6 columns - NUM (id), NAME, SEX, AGE, DOMICILE and DIAGNOSIS.
 As it keyboard-ruled there's some rules (not all, of course ;) ):
 
 Types:
