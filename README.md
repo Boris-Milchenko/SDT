@@ -1,2 +1,2 @@
 # SDT
-Precessor of vim-like table editor
+Predecessor of vim-like table editor
