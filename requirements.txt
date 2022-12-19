@@ -1,0 +1,2 @@
+# python3.8
+psycopg2=2.9.5
