@@ -4,6 +4,7 @@ from sources import Columns, int_cols
 class Table(ttk.Frame):
     def __init__(self, container, lines, lang):
         super().__init__(container)
+        self.lang = lang
         
         self.columns = list(Columns[lang].keys())
         crutch = {0: 50, 2: 40, 3: 60}
@@ -124,7 +125,7 @@ class Table(ttk.Frame):
         if start == 0:
             self.last = 0
         else:
-            self.last = int(self.table.set(rows[start], column = 'num'))
+            self.last = int(self.table.set(rows[start], column = ['num', 'нумер'][self.lang]))
         for i in range(start, len(rows)):
             self.table.set(rows[i], column = self.columns[0], value = self.last)
             self.last += 1
